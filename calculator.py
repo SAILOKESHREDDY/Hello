@@ -15,3 +15,7 @@ class calculator:
 	@staticmethod
 	def div(a,b):
 		return a/b
+	
+	@staticmethod
+	def mod(a,b):
+		return a%b
