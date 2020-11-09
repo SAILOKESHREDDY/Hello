@@ -37,4 +37,5 @@ try:
 except:
     print("MOD function failed")
 
+print('completed all test')
 print('END')
