@@ -9,7 +9,7 @@ Hello.hello()
 
 assert(calculator.add(5,6))
 assert(calculator.sub(15,3))
-assert(calculator.mul(20,25))
+assert(calculator.mul(20,25,9))
 assert(calculator.div(100,5))
 assert(calculator.mod(4,6))
 
