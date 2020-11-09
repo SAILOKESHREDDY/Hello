@@ -9,31 +9,31 @@ Hello.hello()
 
 try:
     assert(calculator.add(5,6)==11)
-    print("1")
+    print("first function success")
 except:
     print("ADD function failed")
 
 try:
     assert(calculator.sub(15,3)==12)
-    print("2")
+    print("second function success")
 except:
     print("SUB function failed")
 
 try:
     assert(calculator.mul(20,20)==400)
-    print("3")
+    print("third function success")
 except:
     print("MUL function failed")
 
 try:
     assert(calculator.div(100,5)==20)
-    print("4")
+    print("fourth function success")
 except:
     print("DIV function failed")
 
 try:
     assert(calculator.mod(4,6)==4)
-    print("5")
+    print("fifth function success")
 except:
     print("MOD function failed")
 
