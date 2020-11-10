@@ -1,5 +1,4 @@
 from calculator import calculator
-import pytest
 
 def test_cases():
     assert(calculator.add(5,6)==11)
