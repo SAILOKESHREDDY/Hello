@@ -1,15 +1,11 @@
-import unittest
 from calculator import calculator
+import pytest
 
-class test(unittest.TestCase):
+def test_cases():
+    assert(calculator.add(5,6)==11)
+    assert(calculator.sub(15,3)==12)
+    assert(calculator.mul(20,20)==400)
+    assert(calculator.div(100,5)==20)
+    assert(calculator.mod(4,6)==4)
 
-    @staticmethod
-    def test(self):
-	    self.assertEqual(calculator.add(5,6)==11)
-	    self.assertEqual(calculator.sub(15,3)==12)
-	    self.assertEqual(calculator.mul(20,20)==400)
-	    self.assertEqual(calculator.div(100,5)==20)
-	    self.assertEqual(calculator.mod(4,6)==4)
-
-if __name__=="__main__":
-    unittest.main()
+test_cases()
