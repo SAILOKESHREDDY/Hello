@@ -2,10 +2,6 @@ import unittest
 from calculator import calculator
 
 class test(unittest.TestCase):
-	
-    def __init__(self):
-        super().__init__()
-	print("test")
 
     @staticmethod
     def test(self):
@@ -15,4 +11,5 @@ class test(unittest.TestCase):
 	    self.assertEqual(calculator.div(100,5)==20)
 	    self.assertEqual(calculator.mod(4,6)==4)
 
-unittest.main()
+if __name__=="__main__":
+    unittest.main()
