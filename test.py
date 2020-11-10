@@ -2,6 +2,11 @@ import unittest
 from calculator import calculator
 
 class test(unittest.TestCase):
+	
+    def __init__(self):
+        super().__init__()
+	print("test")
+
     @staticmethod
     def test(self):
 	    self.assertEqual(calculator.add(5,6)==11)
