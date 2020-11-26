@@ -37,5 +37,4 @@ try:
 except:
     print("MOD function failed")
 
-print('completed all function test')
 print('END of Hello Unit test')
