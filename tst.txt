@@ -1,7 +1,1 @@
-test
-it
-for
-success
-one
-two
-three
+push test file
