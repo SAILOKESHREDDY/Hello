@@ -37,5 +37,5 @@ try:
 except:
     print("MOD function failed")
 
-print("push starts in main")
+print("push starts from master to main")
 print('END of Hello Unit test')
