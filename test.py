@@ -8,3 +8,4 @@ def test_cases():
     assert(calculator.mod(4,6)==4)
 
 test_cases()
+print("end of test cases")
